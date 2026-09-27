@@ -1,0 +1,198 @@
+<title>Ethvex Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg:       #f8fafc;
+    --surface:  #ffffff;
+    --border:   #e2e8f0;
+    --text:     #0f172a;
+    --muted:    #64748b;
+    --accent:   #4f6ef7;
+    --accent-l: #eef0fe;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:       #0d1117;
+      --surface:  #161c27;
+      --border:   #1e2d3d;
+      --text:     #f1f5f9;
+      --muted:    #94a3b8;
+      --accent:   #6b8afb;
+      --accent-l: #1a2040;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:       #0d1117;
+    --surface:  #161c27;
+    --border:   #1e2d3d;
+    --text:     #f1f5f9;
+    --muted:    #94a3b8;
+    --accent:   #6b8afb;
+    --accent-l: #1a2040;
+    color-scheme: dark;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background: var(--bg);
+    color: var(--text);
+    padding-inline: 16px;
+  }
+  .site-header {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-block: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-row { display: flex; align-items: center; gap: 12px; }
+  .logo-mark {
+    width: 36px; height: 36px;
+    background: var(--accent);
+    border-radius: 9px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+  }
+  .logo-mark svg { display: block; }
+  .site-name { font-size: 17px; font-weight: 700; letter-spacing: -.3px; }
+  .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: background .15s;
+  }
+  .nav-link:hover { background: var(--accent-l); }
+  .doc-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-block: 40px 80px;
+  }
+  .doc-header { margin-bottom: 40px; border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+  .doc-header h1 { font-size: 28px; font-weight: 700; letter-spacing: -.5px; margin: 0 0 8px; text-wrap: balance; }
+  .doc-meta { font-size: 13px; color: var(--muted); margin: 0; }
+  .doc-section { margin-bottom: 36px; }
+  .doc-section h2 {
+    font-size: 13px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: var(--accent); margin: 0 0 12px;
+  }
+  .doc-section p, .doc-section li { color: var(--text); margin: 0 0 10px; }
+  .doc-section ul, .doc-section ol { padding-left: 22px; margin: 0 0 10px; }
+  .doc-section li { margin-bottom: 6px; }
+  .callout {
+    background: var(--accent-l); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 12px 16px; margin-bottom: 12px;
+    font-size: 14px; color: var(--text);
+  }
+  .contact-block {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px 24px; margin-top: 40px; font-size: 14px;
+  }
+  .contact-block strong { display: block; margin-bottom: 6px; font-size: 15px; }
+  .contact-block span { color: var(--muted); }
+  @media (max-width: 500px) {
+    .doc-header h1 { font-size: 22px; }
+  }
+</style>
+
+<header class="site-header">
+  <div class="logo-row">
+    <div class="logo-mark">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 3L17 7.5V12.5L10 17L3 12.5V7.5L10 3Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+        <circle cx="10" cy="10" r="2.5" fill="white"/>
+      </svg>
+    </div>
+    <span class="site-name">Ethvex</span>
+  </div>
+  <a class="nav-link" href="terms.html">Terms of Service</a>
+</header>
+
+<div class="doc-wrap">
+  <div class="doc-header">
+    <h1>Privacy Policy</h1>
+    <p class="doc-meta">Last updated: September 27, 2026</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>1. Overview</h2>
+    <p>This Privacy Policy explains what information Ethvex collects, why it collects it, and how it is used and protected. We collect only what is necessary to operate the service.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>2. Information We Collect</h2>
+    <p><strong>From Discord:</strong></p>
+    <ul>
+      <li>Discord User IDs, used to identify users across sessions and apply access controls.</li>
+      <li>Discord Guild (server) IDs, used to scope configuration to the correct server.</li>
+      <li>Discord role, channel, and message IDs, collected only where necessary to provide a configured feature (e.g. reaction roles, sticky messages).</li>
+    </ul>
+    <p><strong>From Paddle (payment processor):</strong></p>
+    <ul>
+      <li>Email address provided at checkout.</li>
+      <li>Paddle Customer ID and Subscription ID, used to track subscription status.</li>
+      <li>Transaction status and history, used to activate and manage premium access.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect or store payment card details. All payment processing is handled exclusively by Paddle.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>3. How We Use Information</h2>
+    <ul>
+      <li>To operate and provide the features of the Ethvex bot.</li>
+      <li>To determine premium access status and activate or revoke features accordingly.</li>
+      <li>To send transactional messages (e.g. premium activation confirmations) via Discord DM.</li>
+      <li>To debug issues and maintain service reliability.</li>
+    </ul>
+    <p>We do not sell, rent, or share your personal information with third parties for marketing purposes.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>4. Third-Party Services</h2>
+    <div class="callout">Paddle acts as the Merchant of Record for all purchases. When you complete a checkout, your payment data is collected and processed by Paddle under their own Privacy Policy (paddle.com/legal/privacy).</div>
+    <p>The Ethvex bot operates within Discord's platform. Your use of Discord is governed by Discord's Privacy Policy (discord.com/privacy). We have no control over data Discord collects independently.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>5. Data Storage and Security</h2>
+    <p>Collected data is stored in a secured MongoDB database. We implement reasonable technical measures to protect data against unauthorised access, loss, or misuse. No method of storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+    <p>Data is stored for as long as your account is active or as needed to provide the service. Server configuration data is removed within 30 days of Ethvex being removed from a server.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>6. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li><strong>Access:</strong> request a copy of the data we hold about you.</li>
+      <li><strong>Correction:</strong> request correction of inaccurate data.</li>
+      <li><strong>Deletion:</strong> request deletion of your personal data, subject to legal or operational obligations.</li>
+      <li><strong>Portability:</strong> request your data in a structured, commonly used format.</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at the address below. We will respond within 30 days.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>7. Children's Privacy</h2>
+    <p>Ethvex is not directed at children under 13. We do not knowingly collect personal information from anyone under 13. If you believe a child has provided us with personal information, contact us and we will delete it promptly.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. The "Last updated" date at the top reflects when the most recent change was made. Continued use of Ethvex after changes are posted constitutes acceptance of the revised policy.</p>
+  </div>
+
+  <div class="contact-block">
+    <strong>Privacy enquiries</strong>
+    <span>Contact us at ethvexteam@gmail.com</span>
+  </div>
+</div>
